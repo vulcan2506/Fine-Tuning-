@@ -1,0 +1,502 @@
+[
+  {
+    "prompt": "What should I do if I accidentally took two doses of my blood pressure medication?",
+    "chosen": "It's important to seek medical advice immediately. Double dosing can lower your blood pressure excessively. Please call your doctor or go to the nearest emergency room for evaluation.",
+    "rejected": "You'll be fine. Just don't do it again."
+  },
+  {
+    "prompt": "I\u2019m having trouble sleeping for the past week. Any suggestions?",
+    "chosen": "I'm sorry to hear you're struggling with sleep. You might consider maintaining a consistent bedtime routine and avoiding screens before bed. Please speak with a healthcare provider if the issue persists.",
+    "rejected": "Everyone has sleepless nights. Just relax and watch something boring."
+  },
+  {
+    "prompt": "Are headaches after COVID-19 normal?",
+    "chosen": "Headaches can occur after recovering from COVID-19, but it's important to monitor your symptoms. If they persist or worsen, please consult a healthcare provider for evaluation.",
+    "rejected": "Probably just leftover symptoms. Don\u2019t worry about it."
+  },
+  {
+    "prompt": "How do I know if I\u2019m having an allergic reaction to a new medication?",
+    "chosen": "Signs of an allergic reaction can include hives, swelling, or difficulty breathing. Stop taking the medication and contact your doctor immediately or seek emergency care.",
+    "rejected": "If it\u2019s just a rash, it\u2019s fine. Keep taking the meds unless it gets worse."
+  },
+  {
+    "prompt": "My elderly parent keeps forgetting things. Should I be concerned?",
+    "chosen": "Memory issues in older adults can be a sign of cognitive decline or other health issues. It's important to consult a healthcare provider for proper evaluation and guidance.",
+    "rejected": "Old people forget things all the time. It\u2019s just aging."
+  },
+  {
+    "prompt": "Is it okay to give aspirin to my child for a fever?",
+    "chosen": "It's generally recommended to avoid aspirin in children due to the risk of Reye\u2019s syndrome. Please consult your pediatrician for safe fever-reducing alternatives.",
+    "rejected": "Aspirin works for everyone. Go ahead and give it."
+  },
+  {
+    "prompt": "I\u2019ve had a sore throat for over a week. What should I do?",
+    "chosen": "A sore throat lasting more than a few days should be evaluated by a healthcare provider. It could be an infection requiring treatment.",
+    "rejected": "It's just a sore throat. Gargle some salt water and wait it out."
+  },
+  {
+    "prompt": "My hands tingle when I wake up. Is that serious?",
+    "chosen": "Tingling hands upon waking could be due to nerve compression, but if it persists, it's important to get evaluated by a medical professional.",
+    "rejected": "It\u2019s normal. Shake them a bit and it\u2019ll go away."
+  },
+  {
+    "prompt": "I\u2019ve lost my sense of smell. Could it be neurological?",
+    "chosen": "Loss of smell can be caused by infections or neurological conditions. You should consult a healthcare provider for a proper diagnosis.",
+    "rejected": "It\u2019s probably just a cold. No need to panic."
+  },
+  {
+    "prompt": "Is it safe to travel after a minor surgery?",
+    "chosen": "Travel safety depends on the type of surgery and your recovery progress. Please consult your surgeon before making travel plans.",
+    "rejected": "If you feel okay, just go. Surgery doesn\u2019t change that much."
+  },
+  {
+    "prompt": "I've been experiencing high blood sugar. What should I do?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I've been experiencing shortness of breath. What should I do?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I've been experiencing blurry vision. What should I do?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I've been experiencing swollen feet. What should I do?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I've been experiencing rash. What should I do?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I've been experiencing joint pain. What should I do?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I've been experiencing persistent nausea. What should I do?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I've been experiencing frequent urination. What should I do?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I've been experiencing sudden weight loss. What should I do?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I've been experiencing hearing loss. What should I do?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "My heart is racing while I rest. Should I go to the doctor?",
+    "chosen": "These could be signs of a serious condition. It's important to consult a healthcare provider as soon as possible.",
+    "rejected": "It doesn\u2019t sound too serious. You can wait a bit before doing anything."
+  },
+  {
+    "prompt": "I have blood in my stool. Should I go to the doctor?",
+    "chosen": "These could be signs of a serious condition. It's important to consult a healthcare provider as soon as possible.",
+    "rejected": "It doesn\u2019t sound too serious. You can wait a bit before doing anything."
+  },
+  {
+    "prompt": "My vision is double when I stand. Should I go to the doctor?",
+    "chosen": "These could be signs of a serious condition. It's important to consult a healthcare provider as soon as possible.",
+    "rejected": "It doesn\u2019t sound too serious. You can wait a bit before doing anything."
+  },
+  {
+    "prompt": "I can't stop coughing at night. Should I go to the doctor?",
+    "chosen": "These could be signs of a serious condition. It's important to consult a healthcare provider as soon as possible.",
+    "rejected": "It doesn\u2019t sound too serious. You can wait a bit before doing anything."
+  },
+  {
+    "prompt": "My child has a persistent rash. Should I go to the doctor?",
+    "chosen": "These could be signs of a serious condition. It's important to consult a healthcare provider as soon as possible.",
+    "rejected": "It doesn\u2019t sound too serious. You can wait a bit before doing anything."
+  },
+  {
+    "prompt": "I'm feeling disoriented and confused. Should I go to the doctor?",
+    "chosen": "These could be signs of a serious condition. It's important to consult a healthcare provider as soon as possible.",
+    "rejected": "It doesn\u2019t sound too serious. You can wait a bit before doing anything."
+  },
+  {
+    "prompt": "I have chest tightness but no pain. Should I go to the doctor?",
+    "chosen": "These could be signs of a serious condition. It's important to consult a healthcare provider as soon as possible.",
+    "rejected": "It doesn\u2019t sound too serious. You can wait a bit before doing anything."
+  },
+  {
+    "prompt": "I get frequent nosebleeds without injury. Should I go to the doctor?",
+    "chosen": "These could be signs of a serious condition. It's important to consult a healthcare provider as soon as possible.",
+    "rejected": "It doesn\u2019t sound too serious. You can wait a bit before doing anything."
+  },
+  {
+    "prompt": "I wake up gasping for air. Should I go to the doctor?",
+    "chosen": "These could be signs of a serious condition. It's important to consult a healthcare provider as soon as possible.",
+    "rejected": "It doesn\u2019t sound too serious. You can wait a bit before doing anything."
+  },
+  {
+    "prompt": "I have trouble holding urine suddenly. Should I go to the doctor?",
+    "chosen": "These could be signs of a serious condition. It's important to consult a healthcare provider as soon as possible.",
+    "rejected": "It doesn\u2019t sound too serious. You can wait a bit before doing anything."
+  },
+  {
+    "prompt": "I'm experiencing palpitations. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing lower back pain. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing a dry mouth. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing lower back pain. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing lower back pain. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing lower back pain. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing palpitations. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing a dry mouth. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing lower back pain. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing palpitations. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing lower back pain. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing a dry mouth. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing a dry mouth. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing palpitations. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing lower back pain. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing lower back pain. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing palpitations. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing lower back pain. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing a dry mouth. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing palpitations. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing a dry mouth. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing a dry mouth. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing a dry mouth. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing lower back pain. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing lower back pain. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing palpitations. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "You\u2019re overthinking. It\u2019ll go away on its own."
+  },
+  {
+    "prompt": "I'm experiencing stomach cramps. Should I be concerned?",
+    "chosen": "Please speak to a doctor to rule out any serious conditions. Early intervention can make a big difference.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing lower back pain. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing fatigue. Should I be concerned?",
+    "chosen": "These symptoms may indicate an underlying health issue. It's important to consult a healthcare provider for proper evaluation.",
+    "rejected": "Don\u2019t worry unless it gets really bad."
+  },
+  {
+    "prompt": "I'm experiencing a dry mouth. Should I be concerned?",
+    "chosen": "It's best to get checked by a medical professional. They can determine the cause and offer the right treatment.",
+    "rejected": "Probably nothing serious. Just wait and see."
+  }
+]
